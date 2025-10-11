@@ -14,7 +14,8 @@ app = application
 def home():
     return render_template('index.html')
 
-
+    # just random commebt
+    
 @app.route('/predict',methods=['POST' , 'GET'])
 def predict_datapoint():
     if request.method == 'GET':
